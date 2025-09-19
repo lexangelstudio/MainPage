@@ -132,8 +132,8 @@ html, body {
   font-size: clamp(2rem, 5vw, 4rem);
   margin: 1rem;
   text-align: center;
-  color: #ffbf38;
-  text-shadow: 0 0 10px #ffbf38;
+  color: #c8c012;
+  text-shadow: 0 0 10px #eb0021;
   transform: translateZ(1px) translateY(50%);
 }
 
