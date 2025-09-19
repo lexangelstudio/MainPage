@@ -256,7 +256,7 @@ html, body {
   background: none;
   border: none;
   margin: 0 1rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
@@ -320,6 +320,6 @@ html, body {
         max-width: 90%;
     }
     .ui-item {
-        font-size: 0.7875rem; /* Increased font size by 5% for mobile */
+        font-size: 1rem; /* Increased font size by 5% for mobile */
     }
 }
