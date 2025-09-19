@@ -60,4 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   socialButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
-      console.log('Social button clicked:', e
+      console.log('Social button clicked:', e.currentTarget.href);
+      // Add analytics tracking here if needed
+    });
+  });
+});
