@@ -312,7 +312,7 @@ body {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .ui-head {
-  padding-top: 10vh;
+  padding-top: 12vh;
   }
   .ui-nav {
     flex-direction: column;
