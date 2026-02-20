@@ -96,7 +96,9 @@ body {
   margin: auto;
   background-size: cover;
   background-position: center bottom;
-  background-image: url(./Images/BG.png);
+  /* Use relative path to AboutUs images or Resources if available, otherwise assume same structure or need copying */
+  /* Assuming AboutUs images are reusable or need to be referenced correctly */
+  background-image: url(../AboutUs/Images/BG.png);
   -webkit-mask-size: cover;
   mask-size: cover;
   -webkit-mask-position: center bottom;
@@ -105,17 +107,17 @@ body {
 }
 
 .l-3 {
-  -webkit-mask-image: url(./Images/Layer3MaskBg.png);
-  mask-image: url(./Images/Layer3MaskBg.png);
+  -webkit-mask-image: url(../AboutUs/Images/Layer3MaskBg.png);
+  mask-image: url(../AboutUs/Images/Layer3MaskBg.png);
 }
 
 .l-2 {
-  -webkit-mask-image: url(./Images/Layer2MaskBg.png);
-  mask-image: url(./Images/Layer2MaskBg.png);
+  -webkit-mask-image: url(../AboutUs/Images/Layer2MaskBg.png);
+  mask-image: url(../AboutUs/Images/Layer2MaskBg.png);
 }
 
 .l-1 {
-  background-image: url(./Images/kf_1-12_layer-1-3.png);
+  background-image: url(./Assets/LAA.png);
 }
 
 .ui-content {
@@ -208,48 +210,8 @@ body {
   line-height: 1.6;
 }
 
-/* ---------------------------------- */
-/* Action Button Styling */
-.ui-action-btn {
-  display: inline-block;
-  padding: 1rem 2.5rem;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
-  color: #111111;
-  background: #c8c012;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
-  border: 2px solid #eb0021;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(235, 0, 33, 0.5), inset 0 0 10px rgba(235, 0, 33, 0.3);
-  transition: all 0.3s ease;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.ui-action-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background: #eb0021;
-  transition: width 0.3s ease;
-  z-index: -1;
-}
-
-.ui-action-btn:hover {
-  color: #E0E0E0;
-  box-shadow: 0 0 20px rgba(235, 0, 33, 0.8), inset 0 0 10px rgba(235, 0, 33, 0.5);
-  border-color: #ffbf38;
-}
-
-.ui-action-btn:hover::before {
-  width: 100%;
+.ui-card strong {
+  color: #c8c012;
 }
 
 /* ---------------------------------- */
